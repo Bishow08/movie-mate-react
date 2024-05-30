@@ -15,3 +15,10 @@ const formSubmission = ()=>{
     }, 3000);
 
 }
+
+const str = "1234567890"
+ str.length === 10 ? console.log(str.slice(-2).padStart(str.length, "*")) : console.log("invalid number");
+
+
+    //ternary operator
+    //condition ? true : false;
