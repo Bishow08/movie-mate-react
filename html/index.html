@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>learning html</title>
+    <link rel="icon"
+    href="https://images.pexels.com/photos/163077/mario-yoschi-figures-funny-163077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
     
-    <link rel="icon" href="c:\Users\anuj\AppData\Local\Temp\MvDK_NS_Mario.webp"
-    />
     <link rel="stylesheet" href="index.css">
 
 </head>
@@ -34,8 +34,8 @@
     select 
     password -->
 
-    <p> Hello World!</p>
-    <img src="c:\Users\anuj\AppData\Local\Temp\MvDK_NS_Mario.webp" alt="loading" onerror=this.src= "https://www.w3schools.com/images/w3lynx_200.png"/>
+    <!-- <p> Hello World!</p>
+    
 
     <table>
         <tr>
@@ -58,8 +58,8 @@
         <li>ironman</li>
         <li>titanic</li>
         <li>forest</li>
-      </ol>
-       
+      </ol> -->
+       <div class="main">
       <!-- in form input by default 'type is 'text' -->
       <form onsubmit="formSubmission();return false;" id="contactForm">
         
@@ -76,12 +76,19 @@
           <option value="India">India</option>
         </select>
         <br>
-        <textarea name="message" rows="10" cols="100"></textarea>
+        <textarea name="msg" rows="10" cols="100"></textarea>
         <br>
 
         <button type="submit">Submit</button>
-        <button type="submit">Reset</button>
       </form>
+      <br> <br>
+
+      <div class="systemMsg">
+
+      </div>
+
+    </div>
 <script src="index.js"></script>
+<!-- defer makes asyn to load html content -->
 </body>
 </html>
